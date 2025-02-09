@@ -1,0 +1,20 @@
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Full viewport height */
+  }
+  
+  nz-table {
+    width: 80%;  /* Adjust width as needed */
+    max-width: 1200px;  /* Optional: limit maximum width */
+  }
+  .dropdown-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
