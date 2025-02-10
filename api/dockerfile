@@ -13,6 +13,9 @@ RUN npm install --legacy-peer-deps
 # Copy the rest of the application code
 COPY . .
 
+# Compile TypeScript files
+RUN npm run build 
+
 # Expose the port that the app will run on
 EXPOSE 3001
 
